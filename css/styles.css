@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000E1C;
+    color: white;
+}
+/*-------------header-----------*/
+header{
+    background: #282828;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+
+}
+
+header img#iconoMenu{
+    position: relative;
+    right: 40%;
+    bottom: 1px;
+    width: auto;
+  
+}
+
+header h1{
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 2em;
+    font-style: normal;
+    margin: auto;
+    top: 3px;
+}
+
+
+
+header  button#iconoLogin{
+    display: inline-block;
+    position: relative;
+    left: 41%;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 10px;
+    border: 3px solid #282828;
+    background-color: #0D6CD1;
+    color: white;
+    padding: 9px 18px;   
+}
+
+/*------------Primer Articulo--------------*/
+
+#articulo1{
+    background-color: #1F1F1F;   
+    display: flex;
+}
+
+section#articulo1 div#texto{
+    width: 60%;
+    display: block;
+}
+
+section#articulo1 div#imagen{
+    display: inline-block;
+    width: 40%;
+    align-items: center;
+    align-content: center;
+}
+
+div#imagen img{
+    width: 100%
+
+}
