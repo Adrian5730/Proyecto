@@ -47,6 +47,50 @@ header  button#iconoLogin{
     color: white;
     padding: 9px 18px;   
 }
+/*-----------todos los acticulos-----------*/
+section{
+    display: flex;
+}
+
+section div{
+    margin: 0 3% 0 3%;
+}
+
+section div#texto{
+    width: 50%;
+    display: block;
+    font-family: Archivo Narrow;
+    padding: 60px 0 0 60px;
+}
+
+section div#imagen{
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+}
+
+section div#imagen img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+section div#texto h2{
+    font-size: 60px;
+    font-family: Anton;
+}
+
+section div#texto p{
+    font-size: 40px;
+    font-family: Lato;
+}
+section div#texto h3{
+    font-family: Lato;
+    font-size: 40px;
+    padding: 6% 0 6% 0;
+    font-weight: 1000;
+}
 
 /*------------Primer Articulo--------------*/
 
@@ -58,6 +102,8 @@ header  button#iconoLogin{
 section#articulo1 div#texto{
     width: 60%;
     display: block;
+    font-family: Roboto;
+    padding: 60px 0 0 60px;
 }
 
 section#articulo1 div#imagen{
@@ -65,9 +111,31 @@ section#articulo1 div#imagen{
     width: 40%;
     align-items: center;
     align-content: center;
+    padding: 100px 0px 0px 0px;
+   
 }
 
-div#imagen img{
-    width: 100%
+section#articulo1 div#imagen img{
+    width: 90%
+}
 
+section#articulo1 div#texto h2{
+    font-size: 3em;
+    font-family: Anton;
+}
+
+section#articulo1 div#texto p{
+    font-size: 2em;
+    font-family: Roboto;
+}
+
+
+/*------------tercer, quinto, septimo Articulo--------------*/
+
+section#articulo3, #articulo5, #articulo7 {
+    flex-direction:row-reverse;
+}
+
+section#articulo3 div#texto, #articulo5 div#texto, #articulo7 div#texto {
+    text-align: right;
 }
