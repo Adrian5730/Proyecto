@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1F1F1F;
+    color: white;
+    box-sizing: border-box;
+}
+/*-------------header-----------*/
+header{
+    background: #282828;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+}
+
+header img#iconoMenu{
+    margin-left: 20px;
+    width: 1.5%;
+}
+
+header h1{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 28px;
+    font-weight: 700;
+    margin: auto;
+
+}
+
+
+
+header  img#iconoLogin{
+   margin-right: 2px;
+}
+/*-----------todos las etiquetas h2 y p-----------*/
+
+article#articulo1 div#texto h2{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 56px;
+    margin: 8% 0 3% 6%;
+    position: absolute;
+}
+
+article#articulo1 div#texto p{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 42px;
+}
+
+
+/*------------Primer Articulo--------------*/
+
+article{
+    display: flex;
+}
+
+#imagen{
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
